@@ -1,0 +1,74 @@
+package com.example.myapplication.Day1Assignment;
+
+public class MCQ {
+}
+Q1. Which of the following is NOT a primitive data type? a) int b) char c) String d) boolean
+    String
+
+Q2. Which keyword is used to inherit a class? a) implement b) extends c) inherit d) super
+    extends
+
+Q3. Which loop executes at least once? a) for b) while c) do-while d) foreach
+    do while
+
+Q4. Which operator compares object references? a) equals() b) == c) compareTo() d) !=
+    ==
+
+Q5. Which class is mutable? a) String b) StringBuilder c) Integer d) Character
+  String Builder
+
+Q6. Which keyword refers to the current object? a) this b) super c) self d) current
+   this
+
+Q7. Can constructors be overridden? a) Yes b) No
+   No
+
+Q8. Which OOP principle allows one method to have multiple implementations? a) Abstraction b) Polymorphism c) Encapsulation d) Inheritance
+    Abstraction
+
+Q9. Which statement about String is true? a) Mutable b) Immutable c) Stored in Stack d) Cannot compare
+  Immutable
+
+Q10. Which access modifier provides maximum restriction? a) public b) protected c) default d) private
+private
+
+
+Q1. Predict the output:
+
+int x=5;
+System.out.println(x++);
+System.out.println(++x);
+
+5 7
+
+
+
+Q2. Predict the output:
+
+String a="Java";
+String b="Java";
+System.out.println(a==b);
+System.out.println(a.equals(b));
+  true true
+
+
+Q3. Predict the output:
+
+String s="Hello";
+s.concat(" World");
+System.out.println(s);
+Hello
+
+Q4. Predict the output:
+
+        for(int i=1;i<=5;i++){
+        if(i==3) continue;
+        System.out.print(i+" ");
+}
+1 2 4 5
+
+Q5. Predict the output:
+
+        int a=10,b=20;
+System.out.println(a>b?"A":"B");
+B
